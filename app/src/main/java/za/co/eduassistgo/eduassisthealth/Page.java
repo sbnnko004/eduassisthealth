@@ -18,6 +18,8 @@ public class Page extends AppCompatActivity {
         AdView adView = (AdView)findViewById(R.id.pageAdView);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
+
+
     }
 
 }
