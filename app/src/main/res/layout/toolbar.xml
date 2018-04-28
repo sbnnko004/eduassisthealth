@@ -5,11 +5,12 @@
     android:layout_height="wrap_content"
     android:minHeight="?attr/actionBarSize"
     android:id="@+id/toolbar"
-    android:background="#f357"
+    android:background="@drawable/gradient"
     >
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
         android:layout_marginStart="14dp"
         android:layout_marginEnd="14dp">
 
@@ -19,13 +20,15 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:background="#f357"
+            android:background="@drawable/gradient"
+            android:textColor="#fff"
             android:text="@string/app_name" />
 
     <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/app_"
+        android:background="@drawable/gradient"
         android:scrollbars="none"
         >
         <LinearLayout
@@ -33,6 +36,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:scrollbars="none"
+
             >
             
 
@@ -41,14 +45,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#f357"
-                android:text="@string/title_home" />
+                android:text="@string/title_home"
+                android:textColor="#fff"/>
 
             <Button
                 android:id="@+id/health"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#f357"
-                android:text="@string/title_health" />
+                android:text="@string/title_health"
+                android:textColor="#fff"/>
 
 
             <Button
@@ -56,13 +62,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#f357"
-                android:text="@string/title_wellbeing" />
+                android:text="@string/title_wellbeing"
+                android:textColor="#fff"/>
 
             <Button
                 android:id="@+id/parents"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#f357"
+                android:textColor="#fff"
                 android:text="@string/title_parents" />
 
             <Button
@@ -70,7 +78,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#f357"
-                android:text="@string/title_challenges" />
+                android:text="@string/title_challenges"
+                android:textColor="#fff"
+                />
 
             <Button
                 android:id="@+id/healthcare"
@@ -78,13 +88,15 @@
                 android:layout_height="wrap_content"
                 android:background="#f357"
                 android:text="@string/title_healthcare"
-                android:visibility="visible" />
+                android:visibility="visible"
+                android:textColor="#fff"/>
             <Button
                 android:id="@+id/mental_illness"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/title_mental_illness"
                 android:background="#f357"
+                android:textColor="#fff"
                 />
             <Button
                 android:id="@+id/consent"
@@ -92,6 +104,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/title_contest"
                 android:background="#f357"
+                android:textColor="#fff"
                 />
             <Button
                 android:id="@+id/sexual_violence"
@@ -99,6 +112,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/title_sexual_violence"
                 android:background="#f357"
+                android:textColor="#fff"
                 />
             <Button
                 android:id="@+id/help"
@@ -106,6 +120,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/title_help"
                 android:background="#f357"
+                android:textColor="#fff"
                 />
             <Button
                 android:id="@+id/emergency"
@@ -113,6 +128,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/title_emergency"
                 android:background="#f357"
+                android:textColor="#fff"
                 />
         </LinearLayout>
 

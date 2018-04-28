@@ -30,8 +30,8 @@ public class Home extends AppCompatActivity {
     {
         if(v.getId()!=R.id.home){
             Intent i = new Intent(this, Page.class);
+            i.putExtra("id", v.getId());
             startActivity(i);
-
         }
     }
 }
