@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Edu-Assist Health</string>
+    <string name="title_home">Home</string>
+    <string name="title_health">Health</string>
+    <string name="title_challenges">Challenges</string>
+    <string name="title_contest">Contest</string>
+    <string name="title_emergency">Emergency</string>
+    <string name="title_healthcare">Healthcare</string>
+    <string name="title_help">Help</string>
+    <string name="title_mental_illness">Mental-Illness</string>
+    <string name="title_parents">Parents</string>
+    <string name="title_sexual_violence">Sexual_Violence</string>
+    <string name="title_wellbeing">Wellbeing</string>
+    <string name="health">Health and Wellbeing</string>
+    <string name="wellbeing">Top Tips for Wellbeing</string>
+    <string name="parents">Information for Parents</string>
+    <string name="challenges">Common challenges</string>
+    <string name="healthcare">Healthcare</string>
+    <string name="mental_illness">Mental Illness</string>
+    <string name="consent">Consent</string>
+    <string name="sexual_violence">Sexual Violence</string>
+    <string name="help">Help and Support</string>
+    <string name="emergency">Emergency Contacts</string>
+
+    <string name="home_main_paragraph">Being at university is an exciting time, full of new challenges and opportunities.\n\n It\'s important to look after your physical and mental health, so that you can get the most out of your studies.</string>
+</resources>

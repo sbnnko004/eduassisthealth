@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:id="@+id/toolbar"
+    android:background="#f357"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp">
+
+        <Button
+            android:id="@+id/app_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:background="#f357"
+            android:text="@string/app_name" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:scrollbars="none"
+            >
+            
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f357"
+                android:text="@string/title_home" />
+
+            <Button
+                android:id="@+id/health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f357"
+                android:text="@string/title_health" />
+
+
+            <Button
+                android:id="@+id/wellbeing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f357"
+                android:text="@string/title_wellbeing" />
+
+            <Button
+                android:id="@+id/parents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f357"
+                android:text="@string/title_parents" />
+
+            <Button
+                android:id="@+id/challenges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f357"
+                android:text="@string/title_challenges" />
+
+            <Button
+                android:id="@+id/healthcare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f357"
+                android:text="@string/title_healthcare"
+                android:visibility="visible" />
+            <Button
+                android:id="@+id/mental_illness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_mental_illness"
+                android:background="#f357"
+                />
+            <Button
+                android:id="@+id/consent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_contest"
+                android:background="#f357"
+                />
+            <Button
+                android:id="@+id/sexual_violence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_sexual_violence"
+                android:background="#f357"
+                />
+            <Button
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_help"
+                android:background="#f357"
+                />
+            <Button
+                android:id="@+id/emergency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_emergency"
+                android:background="#f357"
+                />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>
